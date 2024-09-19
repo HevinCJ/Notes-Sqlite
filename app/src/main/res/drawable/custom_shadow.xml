@@ -1,0 +1,12 @@
+<!-- res/drawable/custom_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Background color -->
+            <corners android:radius="8dp" />
+            <stroke android:color="@color/blue" android:width="3dp"/>
+        </shape>
+    </item>
+    <!-- Additional shadow elements can be added here -->
+</layer-list>
